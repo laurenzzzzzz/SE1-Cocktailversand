@@ -34,8 +34,8 @@ Siehe <<#glossary, Glossar>>.
 
 [cols="1,3"]
 |===
-| Für | Cocktailkunde
-| der / die | aus Gründen nicht zur Bar kommen möchte
+| Für | Barbesitzer
+| der / die | der Cocktails per Versand verkaufen möchte
 | ist das  | {project-name} mittels IT-System
 | eine  | Vetriebsmöglichkeit
 | der / die | den Vetrieb von Cocktails außerhalb vom Barstandort erlaubt
@@ -76,15 +76,16 @@ Siehe <<#glossary, Glossar>>.
 | Zubereitung Verkauf und perspektivisch Versand von Cocktails.
 | Zubereitung und Vesand der bestellen Cocktails. Ordnungsgemäßge Bedienung des Systems.
 
-| Kunde
+| Barkunde
 | Bestellt und Bezahlt Cocktails (Vorort oder Bestellung).
 | Nutzer des Systems und interaktion mit diesem. Zusammenstellung und Bestellung der Cocktails.
 
 | IT-Consulting
 | Realisierung der Vorstellungen von Barbetreiber. Entwicklung & Betreuung des IT-Systems
 | Entwicklung, Wartung und Support des Online-Bestellsystems
-|===
 
+| Gesetzgeber
+|===
 
 
 
