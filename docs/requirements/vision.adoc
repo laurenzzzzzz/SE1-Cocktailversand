@@ -12,7 +12,7 @@ Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäte
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das System {project-system-name}, das von <Team> entwickelt wird. Das System wird es <Zielkunde/Auftraggeber> erlauben, <Hauptfunktionen> zu nutzen, um damit <Vorteile> zu erreichen / <Aufgabe> zu erleichtern / <Problem> zu lösen.
+Dieses Visions-Dokument bezieht sich auf das System {project-system-name}, das von <Team> entwickelt wird. Das System wird es Barkunden erlauben, Cocktails zu bestellen und liefern zu lassen , um damit von Ferne auf das Barangebot zuzugreifen.
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
@@ -34,13 +34,13 @@ Siehe <<#glossary, Glossar>>.
 
 [cols="1,3"]
 |===
-| Für | [Zielkunde / Persona]
-| der / die | [Angabe des Bedarfs oder Chance]
-| ist das  | [Produktname]
-| eine  | [Produktkategorie]
-| der / die | [Aussage zum Hauptvorteil / Alleinstellungsmerkmal]
-| anders als | [wesentliche Lösungsalternative]
-| kann unser Produkt | [Aussage zum Hauptunterschied]
+| Für | Cocktailkunde
+| der / die | aus Gründen nicht zur Bar kommen möchte
+| ist das  | {project-name} mittels IT-System
+| eine  | Vetriebsmöglichkeit
+| der / die | den Vetrieb von Cocktails außerhalb vom Barstandort erlaubt
+| anders als | normalen Barverkauf
+| kann unser Produkt | Fernbestellungen ermöglichen.
 |===
 
 
@@ -67,7 +67,33 @@ Siehe <<#glossary, Glossar>>.
 | [Benennung des Stakeholders (als Rolle)]
 | [Kurze Beschreibung des Stakeholders und seiner Ziele]
 | [Fassen Sie die wesentlichen Verantwortlichkeiten des Stakeholder mit Bezug auf das zu entwickelnde System kurz zusammen, d.h. ihr besonderen Interessen. Beispiele: Dieser Stakeholder sorgt dafür, dass das System gewartet wird / dass die angezeigten Daten aktuell sind / überwacht den Projektfortschritt / usw.]
+
+| Barbetreiber
+| Betreibt Verkauf von Cocktails in einer Bar. Möchte Geschäftsfeld durch einen Online-Shop für Cocktailversand erweitern.
+| Auftraggeber, liefert Anforderungen und Vorstellungen über System. Trifft Finale Entscheidungen.
+
+| Barmitarbeiter
+| Zubereitung Verkauf und perspektivisch Versand von Cocktails.
+| Zubereitung und Vesand der bestellen Cocktails. Ordnungsgemäßge Bedienung des Systems.
+
+| Kunde
+| Bestellt und Bezahlt Cocktails (Vorort oder Bestellung).
+| Nutzer des Systems und interaktion mit diesem. Zusammenstellung und Bestellung der Cocktails.
+
+| IT-Consulting
+| Realisierung der Vorstellungen von Barbetreiber. Entwicklung & Betreuung des IT-Systems
+| Entwicklung, Wartung und Support des Online-Bestellsystems
 |===
+
+
+
+
+
+
+
+
+
+
 
 Die Verfeinerung der Stakeholder, die das System benutzen, wird im UX-Konzept mittels Personas vorgenommen.
 
