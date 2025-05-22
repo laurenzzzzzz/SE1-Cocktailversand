@@ -42,7 +42,11 @@ Dieses Dokument beschreibt die Philosophie, Entscheidungen, Nebenbedingungen, Be
 //[Describe the architectural views that you will use to describe the software architecture. This illustrates the different perspectives that you will make available to review and to document architectural decisions.]
 
 === Kontextabgrenzung
-//Level 1 im C4-Modell
+.Kontextabgrenzung mit PlantUML
+[plantuml, "{diagramsdir}/c4-model-diagram", svg]
+....
+include::{plantumlsdir}/c4-model-diagram.puml[]
+....
 
 === Container
 //Level 2 im C4-Modell
@@ -53,4 +57,8 @@ Dieses Dokument beschreibt die Philosophie, Entscheidungen, Nebenbedingungen, Be
 
 === Verteilungsdiagramm (Deployment Diagramm)
 //Beschreibt die physischen Knoten (Rechner) des Systems und Komponenten, die in diesen Knoten ausgeführt werden. Diese Sicht wird nicht benötigt, wenn das System in einem einzelnen Prozess oder Thread ausgeführt wird.
+
+
+
+
 

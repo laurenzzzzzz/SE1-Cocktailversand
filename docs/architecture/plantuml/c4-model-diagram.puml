@@ -1,0 +1,24 @@
+@startuml example-c4-modell-diagram
+' source: https://github.com/plantuml-stdlib/C4-PlantUML
+' C4 Model
+!include <c4/C4_Context.puml>
+
+
+' Diagram title
+title \nCocktailversand\n
+
+' Diagram syntax
+Person(customer, Barkunde, "<$user> <$mobile_user>\n A customer of the bar, that wants a cocktail at home")
+
+Enterprise_Boundary(c0, "Cocktail Bar") {
+  System(banking_system, "Cocktail Versand System", "Allows customers to order Cocktails.")
+
+  System_Ext(mail_system, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+  System_Ext(mainframe, "Database System", "Stores all of the core information about customers, adress, etc.")
+
+  Rel(customer, banking_system, "Uses")
+  Rel_Back(customer, mail_system, "Sends e-mails to")
+  Rel_Neighbor(banking_system, mail_system, "Sends e-mails", "SMTP")
+  Rel(banking_system, mainframe, "Uses")
+}
+@enduml
